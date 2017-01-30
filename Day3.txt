@@ -1,0 +1,12 @@
+Day 3 
+
+Edge Detection 
+	using Sobel Filters
+	using max-min in 3X3 kernel
+	using canny edge detector
+Blob Detection
+Erosion and Dilation
+Track bar creation
+
+Homework
+	Draw a BGR Histogram having intensities of each colour on x-axis and no. of pixels having those intensities on y-axis.

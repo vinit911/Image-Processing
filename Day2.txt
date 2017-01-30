@@ -1,0 +1,18 @@
+Day 2 
+
+Converting a Binary Image to Grayscale image
+	using average of BGR colour intensities
+	using formula 0.587G + 0.299R + 0.114B
+Converting a Grayscale Image to Binary image
+	using manual Thresholding
+Pixel Dilation
+Pixel Contracion
+Basic Filtering
+	using mean of 3*3 kernel
+	Using median of 5*5 kernel
+	using Gaussian Kernel
+Mouse-click functions
+
+Homework
+	Draw a Histogram having intensity in x-axis and no. of pixels having that intensity in y-axis
+ 	Converting a Grayscale Image to Binary image using Automatic Thresholdng such that 50% of image's pixels are white and rest are black.

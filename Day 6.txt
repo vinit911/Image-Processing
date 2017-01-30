@@ -1,0 +1,59 @@
+Day 6
+
+Path planner using DFS involving a stack.
+Basic Autonomous
+
+
+
+Path planner:
+We use DFS involving a stack.
+
+DFS(start,end)
+{
+s.push(start);
+while(start!=end)
+{
+temp=s.top();
+for(    )
+{
+for(  )
+{
+current;
+if(temp is not visited && no obstacle)
+{
+DFS(current,end);
+pop();
+}
+}
+}
+…..
+
+
+BASIC AUTONOMOUS
+
+Microcontroller: brain of the bot
+Supply to DC motor: battery or power supply(adapter)
+Difference between microcontrollers and microprocessors: Microcontrollers are self-sufficient with inbuilt RAM, whereas microprocessors have external RAM and hence are not self-sufficient.
+Sensor-->Microcontroller-->Actuator
+4 types of commands in Arduino IDE: 
+digitalWrite()
+digitalRead() 
+analogWrite()
+analogRead()
+
+Sample code in Arduino IDE:
+void setup()
+{
+pinMode(13,OUTPUT);
+}
+void loop()
+{
+digitalWrite(13,HIGH);
+delay(1000);
+digitalWrite(13,LOW);
+delay(1000);
+}
+
+
+
+

@@ -1,0 +1,16 @@
+Day 1
+
+OpenCV installation
+Basic Programming
+OpenCV
+	Displaying an image
+	Creating Patterns
+		1. A Red square inside an image.
+		2. A Square image coloured Red above the principal diagonal and black below it.
+	Increasing Brightness of an image
+
+Homework
+	Displaying water image of a picture
+	Creating a chess board
+
+

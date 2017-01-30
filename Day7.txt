@@ -1,0 +1,21 @@
+Day 7
+
+Problem Statement:
+
+"Perform Fillbucket operation like in MS-Paint"
+"Counting the number of goals in Robosoccer"
+
+
+Fillbucket:
+
+First used a mouse-click function to get the coordinates of the points at which the mouse is clicked.
+Then start a DFS until all the white pixel inside the borders are coloured.
+I used a condition that if mouse is clicked on the borders than it will perform no task.
+
+Robosoccer:
+First I made a program to find the coordinates of the goal post
+Then I extracted the orange colour of the ball
+Using the colour of the ball I kept track of its movement
+I declared an array(for each team) which stores a value each frame. It stores 1 if ball inside the goal post and else 0
+The point at which the array has a change in value from 1 to 0 is declared as a goal
+

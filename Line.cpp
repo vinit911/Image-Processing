@@ -13,16 +13,17 @@ Mat b=imread("ext1.png",1);
 Mat img(b.rows,b.cols,CV_8UC1,Scalar(0));
 namedWindow ("String", WINDOW_NORMAL);
 int x,y;
-createTrackbar ("Low", "String", &x , 300);
+/*createTrackbar ("Low", "String", &x , 300);
 createTrackbar ("High", "String", &y , 300);
 while(1)
-{
-Canny(b,img,x,y);
-imshow("String",img);
+{*/
+Canny(b,img,100,150);
+/*imshow("String",img);
 char i=waitKey(50);
 if(i=='e')
 break;
 }
+*/
 return (img);
 }
 
@@ -42,11 +43,11 @@ int bright=0;
 int main()
 {
 namedWindow ("String", WINDOW_NORMAL);
-int th=130;
-int yo=15;
+int th=235;
+int yo=30;
 
 spot Max,arr[1500];
-Mat b=imread("ext4e.jpg",0);//canny();
+Mat b=canny();
 float lim=2*sqrt(b.rows*b.rows+b.cols*b.cols);
 Mat img(lim+1,200,CV_8UC1,Scalar(0));
 Mat c(b.rows,b.cols,CV_8UC1,Scalar(0));

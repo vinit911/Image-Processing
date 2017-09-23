@@ -85,7 +85,7 @@ if(g2[i]==1 && g2[i+1]==1 && g2[i+2]==0 && g2[i+3]==0)
 goal2++;
 }
 
-cout<<"Goal done by 1 : "<<goal1<<endl;
+cout<<"Goal done by 1 : "<<goal1+1<<endl;
 cout<<"Goal done by 2 : "<<goal2<<endl;
 
 

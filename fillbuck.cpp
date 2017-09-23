@@ -47,6 +47,7 @@ setMouseCallback ("win",Callbackfunc,NULL);
 char i=waitKey(50);
 if(i=='e')
 break;
+
 }
 /*
 for(i=1;i<b.rows-1;i++)

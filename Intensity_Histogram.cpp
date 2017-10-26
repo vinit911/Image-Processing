@@ -1,3 +1,4 @@
+//Creates a Histogram having intensity along x-axis and no. of pixels having that intensity along y-axis.
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/core/core.hpp"

@@ -1,4 +1,6 @@
 
+//This program computes centre of mass of different blobs on the image.
+//It uses Depth-First-Search to get distinct blobs and then computes centre of each blob. 
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/core/core.hpp"

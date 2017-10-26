@@ -1,3 +1,4 @@
+//Converting an RGB image to binary using four trackbars to control R,G,B colour intensities and also the error range
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/core/core.hpp"

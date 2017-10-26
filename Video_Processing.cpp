@@ -1,4 +1,7 @@
 
+//Basic Video Processing
+//Captures video and does some basic operations on it
+//Displays processed video and its length.
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/core/core.hpp"
